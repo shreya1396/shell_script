@@ -11,7 +11,7 @@ pipeline {
         sh '''ls
 pwd
 sudo apt-get update
-sudo apt-get install go
+sudo apt-get install go 
 '''
       }
     }
