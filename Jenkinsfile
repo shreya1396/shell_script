@@ -5,8 +5,8 @@ pipeline {
       steps {
         sh '''ls
 pwd
-apt-get update
-apt-get install vim
+sudo apt-get update
+sudo apt-get install vim
 '''
       }
     }
