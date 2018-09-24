@@ -10,12 +10,10 @@ def call(body) {
             deleteDir()
 
             try {
-stage('Install') {
+stage('Build') {
       steps {
-        sh '''ls
-pwd
-sudo apt-get update
-sudo apt-get install vim
+        sh '''
+echo 'build stage executing'
 '''
       }
      }
